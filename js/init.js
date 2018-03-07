@@ -12,8 +12,11 @@
     $('body').click(function(){
     	$('#navbarfixed').addClass('navbar-fixed');
     });
+
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
    });
-        
+     
+
 // autoplay()   
 // function autoplay() {
 //     $('.carousel').carousel('next');
