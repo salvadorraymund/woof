@@ -217,50 +217,12 @@
 				        <img src="assets/dogs1.png"> 
 				        <div class="caption right-align">
 				          <h3>Interested? Join Now!</h3>
-				          <a onclick="document.getElementById('id02').style.display='block'" class="waves-effect waves-light btn">Sign up</a>
-				          	<div id="id02" class="modal row">
-                       			<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                        		<form class="modal-content" action="/action_page.php">
-                          		<div class="container">
-	                            <h1><span class="black-text text darken-2">Sign up</span></h1>
-	                            <p><span class="black-text text darken-2">Please fill in this form to create an account.</span></p>
-	                            <hr>
-	                            <div class="row">
-	                                <div class="input-field col s12">  
-	                                  <label for="email"><b>Email</b></label>
-	                                  <input type="text" placeholder="Enter Email" id="email" class="validate">
-	                                </div>
-	                          </div>
-	                          <div class="row">
-	                              <div class="input-field col s12">
-	                              <label for="password"><b>Password</b></label>
-	                              <input id="password" type="password" placeholder="Enter Password" class="validate">
-	                            </div>
-                          	  </div>
-
-	                           <div class="row">
-	                              <div class="input-field col s12">
-	                              <label for="password"><b>Repeat Password</b></label>
-	                              <input id="password" type="password" placeholder="Repeat Password" class="validate">
-	                           </div>
-                          	   </div>
-                            
-	                            <form action="#">
-	                              <p>
-	                                <input type="checkbox" id="test6" checked="checked"/> 
-	                                <label for="test6">Sign up for Promotions</label>
-	                              </p>
-	                            </form>
-
-                            	<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-                            	<div class="clearfix">
-                              	<a class="btn red lighten-1" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" id="button2">Cancel
-                              	</a>
-                              	<a class="btn teal lighten-1">Sign Up</a>
-                            </div>
-                          </div>
-                        </form> <!-- end form -->
+				          <div class="show-on-large hide-on-med-and-down">
+				          <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="waves-effect waves-light btn">Sign up</a>
+				          </div>
+				         <div class="hide-on-large-only">
+				          <a href="signup.html" class="waves-effect waves-light btn">Sign up</a>
+				         </div>	
                       </div>
         				</div>
       				</li>
